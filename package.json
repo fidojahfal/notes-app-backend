@@ -4,7 +4,7 @@
   "main": "app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:prod": "NODE_ENV=production node ./src/app"
+    "start:prod": "NODE_ENV=production node ./src/app",
     "start:dev": "nodemon ./src/app",
     "lint": "eslint ./src"
   },
